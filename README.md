@@ -1,5 +1,5 @@
 # paddlehuman-fight-detection
-A research-oriented demo project exploring human fight detection using PaddleHuman. Developed for experimentation and learning purposes only, with no commercial intent.
+Dự án demo mang tính nghiên cứu, thử nghiệm phát hiện hành vi đánh nhau của con người bằng PaddleHuman. Dự án chỉ phục vụ mục đích thử nghiệm và học tập, không nhằm mục đích thương mại.
 
 Đọc 1 video và model phát hiện đánh nhau, xuất ra **chính video đó (giữ âm thanh)**. Ở các đoạn có đánh nhau, video có banner đỏ **"CẢNH BÁO: PHÁT HIỆN ĐÁNH NHAU"** và viền đỏ nhấp nháy. Không cần Docker hay Redis.
 
@@ -50,10 +50,10 @@ Tham số hay dùng (`python run.py --help` để xem hết):
 
 Vì xem trước được toàn bộ video nên cảnh báo bật sát lúc bắt đầu đánh nhau, không bị trễ như khi chạy realtime.
 
-## Disclaimer
+## Tuyên bố miễn trừ trách nhiệm
 
-This project is intended strictly for research, educational, and experimental purposes.
+Dự án này chỉ dành cho mục đích nghiên cứu, giáo dục và thử nghiệm.
 
-It is not designed or intended for commercial use. The implementation is provided as a demonstration of human fight detection using PaddleHuman.
+Dự án không được thiết kế và không nhằm mục đích sử dụng thương mại. Phần cài đặt được cung cấp như một bản demo phát hiện hành vi đánh nhau của con người bằng PaddleHuman.
 
-Users are responsible for ensuring that their use of this project complies with applicable laws, privacy regulations, and the licenses of all third-party models and dependencies.
+Người dùng có trách nhiệm đảm bảo việc sử dụng dự án này tuân thủ pháp luật hiện hành, các quy định về quyền riêng tư và giấy phép của mọi model, thư viện bên thứ ba liên quan.
