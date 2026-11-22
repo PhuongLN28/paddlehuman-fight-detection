@@ -1,0 +1,6 @@
+# Colab đã có sẵn numpy, opencv-python, pillow, matplotlib, ffmpeg -> thực tế chỉ cần cài onnxruntime-gpu.
+# Máy không có GPU: thay onnxruntime-gpu bằng onnxruntime.
+onnxruntime-gpu
+numpy
+opencv-python
+pillow
